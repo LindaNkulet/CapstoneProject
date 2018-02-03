@@ -141,9 +141,9 @@ h1 {
     
 }
 
-header, main,footer {
+/*header, main,footer {
      margin-left: 205px;
-    }
+    }*/
 
     @media only screen and (max-width : 992px) {
       header, main, footer {
@@ -185,4 +185,6 @@ header, main,footer {
     /*float:right;*/
 
 }
+
+
 

@@ -2880,7 +2880,7 @@ ul.staggered-list li {
 .page-footer {
   padding-top: 20px;
   color: #fff;
-  background-color: #ee6e73;
+  background-color: #4682B4;
 }
 
 .page-footer .footer-copyright {
@@ -9449,6 +9449,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     cursor: pointer;
   }
 
+
   h1{
     margin-left: 490px;
 }
+
+/*sidenav css*/
+
+
+  /*end of sidenav code

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+        <title>VoyageApp</title>
+
+        <style>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.signup-text{
+  width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.signup-wrapper{
+    margin:auto;
+    width:50%;
+    margin-bottom: 30px;
+
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #6495ED;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4682B4;
+}
+
+.signup-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+    </head>
+    <body>
+    <header>
+    </header>
+    
+    <!--sidebar on the navigation menu-->
+    <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Voyage</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Home</a></li>
+        <li><a href="badges.html">Journey</a></li>
+        <li><a href="collapsible.html">Adventures</a></li>
+      </ul>
+    </div>
+    </nav>
+<!--end of sidebar-->
+
+<!--start of body-->
+<div class="signup-wrapper">
+
+<h3>SIGN UP</h3>
+
+<div class="signup-form">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." class="signup-text">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="uname">Username</label>
+    <input type="text" id="uname" name="username" placeholder="Your username..">
+
+
+    <label for="phone">Telephone</label>
+    <input type="text" id="phone" name="telephone" placeholder="Your telephone number..">
+
+    <label for="gender">Choose gender</label>
+    <select id="gender" name="gender">
+    <option value="-1">Choose your gender</option>
+      <option value="1">Male</option>
+      <option value="2">Female</option>
+      <option value="usa">Other</option>
+    </select>
+
+    <label for="level">Select level</label>
+    <select id="level" name="level">
+    <option value="-1">Choose your level</option>
+      <option value="1">Basic</option>
+      <option value="2">Intermediate</option>
+      <option value="3">Advanced</option>
+    </select>
+  
+    <input type="submit" value="Sign Up">
+  </form>
+</div>
+</div>
+
+<!--end of body-->
+ <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+
+
+
+    <!--
+      <footer class="adventures-footer">
+      <p>Copyright Information: © 2018 Copyright Voyage App.</p>
+      </footer>-->
+              
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/materialize.js"></script>
+    </body>
+</html>
