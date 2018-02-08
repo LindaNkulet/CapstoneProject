@@ -3359,6 +3359,9 @@ nav ul a span.badge {
 
 /* This is needed for some mobile phones to display the Google Icon font properly */
 .material-icons {
+  font-family: ‘Material Icons’;
+font-weight: normal;
+font-style: normal;
   text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: 'liga';
      -moz-font-feature-settings: 'liga';
@@ -4420,6 +4423,8 @@ nav .input-field label.active i {
     height: 64px;
   }
 }
+
+
 
 @font-face {
   font-family: "Roboto";
