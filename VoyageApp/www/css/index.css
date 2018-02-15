@@ -128,24 +128,7 @@ h1 {
 
 }
 
-.adventures-footer{
-    background-color: #4682B4;
-    height:60px;
-    width:100%;
-    text-align:center;
-    padding-top:20px;
-    
-}
 
-.homepage-footer{
-    background-color: #4682B4;
-    height:80px;
-    width:100%;
-    margin:0px;
-    text-align: center;
-    padding-top:20px;
-    
-}
 
 /*header, main,footer {
      margin-left: 205px;
@@ -213,7 +196,8 @@ h1 {
 
 .adventures-wrapper-div{
  overflow-x: hidden;
-overflow-y: scroll;   
+overflow-y: scroll; 
+ 
 
 }
 }
@@ -228,16 +212,32 @@ margin-left: 350px;
 .English-btn{
     width:50px; 
     height:50px;
-    margin-bottom: 400px;
-    margin-left: 350px;
-    margin-right: 550px;
-    margin-left: 300px;
+    margin-bottom: 440px;
+    margin-left: 80px;
+    
+}
+
+.adventures-row2-col1{
+
+    padding-left: 350px;
 }
 
 .adventures-row2-col2{
     
     float:right;
-    margin-right: 800px;
+    margin-right: 900px;
+    margin-left: 20px;
+}
+
+.adventures-ptag{
+    margin-left: 350px; 
+}
+
+.adventures-Div1-Img {
+   width:400px;
+    height:auto;
+    background-color: grey;
+   margin-left: 350px;
 }
 }
 
@@ -255,6 +255,150 @@ margin-left: 350px;
     margin-right: 800px;
 }*/
 
+/*setting the css for adventures 1*/
+
+/*responsive callouts/speech bubble*/
+/*source:https://codepen.io/depthdev/pen/wiIsv*/
+/*alternative:/*speech bubble generator:http://ilikepixels.co.uk/bubbler-css-speech-bubble-generator/*/
+*, *:before, *:after { -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; padding: 0;}
+
+
+/* BASE STYLES FOR EACH */
+.callouts p {
+  display: inline-block;
+  /* Real styles */
+  position: relative;
+   /* width: 22%;*/
+    width: 250px;
+    height: auto;
+  padding: 15px;
+    background-color: #fff;
+  border: 1px solid #c1c1c1;
+    border-radius: 9px;
+    box-shadow: 0 0 10px #c1c1c1;
+    font-size: 12px;
+}
+
+/* LEFT */
+.callouts--left:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -42px;
+    top: 17px;
+  border: 10px solid transparent;
+  border-right: 32px solid rgb(193,193,193); /* IE8 Fallback */
+  border-right: 32px solid rgba(193,193,193,0.5);
+  z-index: 2;
+}
+.callouts--left:after {
+  content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -31px;
+    top: 20px;
+  border: 8px solid transparent;
+  border-right: 24px solid #fff;
+  z-index: 3;
+}
 
 
 
+
+
+/* RIGHT */
+.callouts--right:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: -42px;
+    top: 17px;
+  border: 10px solid transparent;
+  border-left: 32px solid rgb(193,193,193); /* IE8 Fallback */
+  border-left: 32px solid rgba(193,193,193,0.5);
+  z-index: 2;
+}
+.callouts--right:after {
+  content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: -31px;
+    top: 20px;
+  border: 8px solid transparent;
+  border-left: 24px solid #fff;
+  z-index: 3;
+}
+
+/*start of adventure 1 css*/
+.adventure1-wrapper-div{
+    width:75%;
+}
+
+.adventures1-ticket1,.adventures1-ticket2,.adventures1-ticket3,.adventures1-ticket4{
+    width:70%;
+    height:auto;
+}
+
+.adventures1-ama,.adventures1-kofi{
+    width:60%;
+    height:auto;
+}
+
+.adventures1-kofi{
+   }
+
+.adventures1-validatebtn{
+    width:38%;
+    height:auto;
+    
+}
+
+.adventures1-transcriptionbtn,.adventures1-validatebtn,
+.adventures1-lessonbtn,.audio-btn,.goback-btn,.transcription-backbtn,
+.transcription-audiobtn,.transcription-lessonbtn{
+border-radius: 50%;
+}
+
+.tickets{
+    padding-left:10%;
+}
+
+.adventures1-div-subwrap1{
+margin-left: 15%;
+}
+
+/*setting the css for adventures 1 check lesson*/
+.adventures1-lesson-div,.adventures1-transcription-div{
+    margin-left: 35%;
+    margin-top: 2%;
+
+}
+
+.alphabet-img,.vowels-img{
+    width:50%;
+    height:auto;
+}
+
+.goback-btn,.transcription-backbtn{
+   width:7%;
+   height:auto;
+}
+.audio-btn,.transcription-audiobtn{
+    width:8%;
+    height:auto;
+}
+
+.audio-btn{
+margin-left: 30%;
+}
+
+/*css for check transcription page*/
+.transcription-lessonbtn{
+    width:8%;
+    height:auto;
+}
