@@ -95,109 +95,80 @@
   </nav>
   <!--end of sidenav-->
 <div class="adventure1-wrapper-div"> 
-  <!--start of body-->
-  <table class="">
-    <!--start of kofi and ama with speech bubble -->
-    <div class="adventures1-div-subwrap1">
-    <tr>
-    <!--div containing ama,kofi,callouts and transcription button-->
-    
-      <td>
-        <img src="../res/images/amapic.PNG" class="adventures1-ama" >
-      </td>
-      <td>
-        
 
-      <div class="callouts">
-        <p class="callouts--left"> Ecoute l’hôtesse!Elle appelle les passagers du bus avec la référence qui est sur leur billet.Coche nos billets.</p>
+  <!--start of body-->
+  <div class="buttons-div">
+  <img src="../res/images/audio.png" class="adventure1-audiobtn" >
+  <a href="">
+   <img src="../res/images/check_lesson.png" class="adventures1-lessonbtn" >
+   </a>
+   <a href="">
+   <img src="../res/images/check_transcription.png" class="adventures1-transcriptionbtn" >
+   </a>
+   <a href="">
+   <img src="../res/images/validate.png" class="adventures1-validatebtn" >
+   </a>
+  </div>
+  <!--div containing ama,kofi,callouts and transcription button-->
+<div>
+<table>
+<tr>
+<td>
+<img src="../res/images/amapic.PNG" class="adventures1-ama" >
+</td>
+<td>
+<div class="callouts">
+        <p class="callouts--left"> Ecoute l’hôtesse!Elle appelle les passagers du bus avec la référence qui est sur leur billet.Coche nos billets.
+        </p>
       </div>
-    </td>
-    <td>
-      <div>
-        <div class="callouts">
+</td>
+<td>
+<div class="callouts">
           <p class="callouts--right"> Listen to the hostess She calls passengers by mentioning the reference on their ticket. Tick our tickets.</p>
         </div>
-      </div>
-    </td>
-    <td>
-      <img src="../res/images/kofipic.PNG" class="adventures1-kofi" >
-    </td>
-    <td>
-      <img src="../res/images/check_lesson.png" class="adventures1-lessonbtn" >
-    </td>
-  </tr>
-  </div>
-  <!-- end of kofi and ama with speech bubble-->
-  <!-- start of answers-->
-  <div class="tickets">
-  <tr>
-    <tr>
-      <td>
-        <div>
-          <img src="../res/images/ama_ticket1.png" class="adventures1-ticket1" >
-          <!--radio button 1 -->
-          <!--<input type="radio" value="opt1" name="capital">Rbtn-->
-          <p>
-      <input name="group1" type="radio" id="test1" />
-      <label for="test1">A</label>
-    </p>
-        </div>
-      </td>
+</td>
+<td>
+<img src="../res/images/kofipic.PNG" class="adventures1-kofi" >
+</td>
+</tr>
+</table>
 
-      <td>
-        <div>
-          <img src="../res/images/ama_ticket2.png" class="adventures1-ticket2" >
-          <!--radio button 2 -->
-          <p>
-      <input name="group1" type="radio" id="test1" />
+</div>
+
+<div class="rbtn-batch1">
+  <p>
+      <input name="group1" type="radio" id="test1" class="Rbtn1" />
+      <label for="test1">A</label>
+
+      <input name="group1" type="radio" id="test1" class="Rbtn2" />
       <label for="test1">B</label>
     </p>
-        </div>
-      </td>
 
-      <td>
-        <div>
-        <img src="../res/images/check_transcription.png" class="adventures1-transcriptionbtn" >
-        </div>
-      </td>
-    </tr>
+</div >
+<div class="tickets-batch1">
+<img src="../res/images/ama_ticket1.png" class="adventures1-ticket1" >
+ <img src="../res/images/ama_ticket2.png" class="adventures1-ticket2" >
+</div>
 
-    <tr>
-      <td>
-        <div>
-          <img src="../res/images/kofi_ticket1.PNG" class="adventures1-ticket3" >
-          <!--radio button 3 for selecting answers-->
-          <p>
+
+<div class="rbtn-batch2">
+  <p>
       <input name="group1" type="radio" id="test1" />
       <label for="test1">C</label>
-    </p>
-        </div>
-      </td>
 
-      <td>
-        <div>
-          <img src="../res/images/kofi_ticket2.PNG" class="adventures1-ticket4" >
-          <!--radio button 4 for selecting answers-->
-          <p>
       <input name="group1" type="radio" id="test1" />
       <label for="test1">D</label>
     </p>
-        </div>
-      </td>
-      <td>
-        <div>
-          <img src="../res/images/validate.png" class="adventures1-validatebtn" >
-        </div>
-      </td>
-    </tr>
-    </div>
-    <!-- end of answers-->
-    
 
- </tr>
-</table>
-<!--end of body-->
-</div>      
+</div>
+<div class="tickets-batch2">
+ <img src="../res/images/kofi_ticket1.PNG" class="adventures1-ticket3" >
+ <img src="../res/images/kofi_ticket2.PNG" class="adventures1-ticket4" >
+</div>
+
+
+</div>  
+<!--end of body-->    
 
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="js/index.js"></script>

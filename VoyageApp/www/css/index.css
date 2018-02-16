@@ -305,10 +305,6 @@ margin-left: 350px;
   z-index: 3;
 }
 
-
-
-
-
 /* RIGHT */
 .callouts--right:before {
     content: "";
@@ -334,42 +330,69 @@ margin-left: 350px;
   z-index: 3;
 }
 
-/*start of adventure 1 css*/
+/*start of adventure 1 home page css*/
 .adventure1-wrapper-div{
     width:75%;
+    height:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.adventures1-validatebtn{
+    margin-left: 8%;
+}
+
+.adventure1-audiobtn{
+    margin-left:5%;
+}
+
+.adventures1-lessonbtn{
+    margin-left:6%;
+}
+
+.adventures1-transcriptionbtn{
+    margin-left: 6%;
 }
 
 .adventures1-ticket1,.adventures1-ticket2,.adventures1-ticket3,.adventures1-ticket4{
-    width:70%;
+    width:29%;
     height:auto;
 }
 
 .adventures1-ama,.adventures1-kofi{
-    width:60%;
     height:auto;
 }
 
 .adventures1-kofi{
+    margin-left: 10%;
+    width:70%;
    }
 
-.adventures1-validatebtn{
-    width:38%;
-    height:auto;
-    
+.adventures1-ama{
+    margin-left: 60%;
+    width:35%;
+}
+
+.buttons-div,.answers-buttons-div{
+    margin-left: 35%;
+    margin-top:5%;
+}
+
+.rbtn-batch1,.rbtn-batch2,.tickets-batch1,.tickets-batch2,
+.answers-rbtn-batch1,.answers-rbtn-batch2,.answers-tickets-batch1,.answers-tickets-batch2{
+    margin-left:39%;
+}
+
+.adventures1-ticket2,.adventures1-ticket4{
+    margin-left: 15%;
 }
 
 .adventures1-transcriptionbtn,.adventures1-validatebtn,
 .adventures1-lessonbtn,.audio-btn,.goback-btn,.transcription-backbtn,
-.transcription-audiobtn,.transcription-lessonbtn{
+.transcription-audiobtn,.transcription-lessonbtn,
+.adventures1-validatebtn,.adventure1-audiobtn,.answers-lessonbtn
+,.answers-transcriptionbtn{
 border-radius: 50%;
-}
-
-.tickets{
-    padding-left:10%;
-}
-
-.adventures1-div-subwrap1{
-margin-left: 15%;
 }
 
 /*setting the css for adventures 1 check lesson*/
@@ -384,13 +407,36 @@ margin-left: 15%;
     height:auto;
 }
 
+/*general css for back button*/
 .goback-btn,.transcription-backbtn{
    width:7%;
    height:auto;
 }
-.audio-btn,.transcription-audiobtn{
+/*general css for audio btn*/
+.audio-btn,.transcription-audiobtn,.adventure1-audiobtn{
     width:8%;
     height:auto;
+}
+/*general css for transcription button*/
+.transcription-lessonbtn,.adventures1-transcriptionbtn,.answers-transcriptionbtn{
+    width:9%;
+    height:auto;
+}
+
+/*general css for checklesson  btn*/
+.adventures1-lessonbtn,.answers-lessonbtn{
+    width:9%;
+    height:auto;
+}
+
+/*general css for validate btn*/
+.adventures1-validatebtn{
+    width:9%; height:auto;  
+}
+
+/*general css for next button*/
+.answers-nextbtn{
+    width:10%; height:auto;
 }
 
 .audio-btn{
@@ -398,7 +444,32 @@ margin-left: 30%;
 }
 
 /*css for check transcription page*/
+
+.transcription-row2 p{
+line-height: 200%;
+}
+
 .transcription-lessonbtn{
-    width:8%;
-    height:auto;
+margin-left:12%;
+}
+
+.transcription-audiobtn{
+margin-left: 9%;
+}
+
+/*css for check answers*/
+.answers-lessonbtn{
+    margin-left: 20%;
+}
+
+.answers-transcriptionbtn{
+    margin-left: 6%;
+}
+
+.answers-nextbtn{
+    margin-left: 6%;
+}
+
+.answers-buttons-div{
+    margin-bottom: 1%;
 }
